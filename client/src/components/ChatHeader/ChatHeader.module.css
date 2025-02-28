@@ -1,0 +1,14 @@
+.chatHeader {
+  flex-shrink: 0;
+  flex-basis: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding-inline: 1rem;
+  border-bottom: 2px solid rgb(243, 243, 245);
+
+  p {
+    font-size: 1.5rem;
+  }
+}

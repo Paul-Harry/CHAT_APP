@@ -1,0 +1,42 @@
+.chat {
+  display: flex;
+
+  &.sender {
+    justify-content: flex-end;
+
+    &:has(+ .sender) {
+      margin-bottom: 4px;
+    }
+
+    &:has(+ .receiver) {
+      margin-bottom: 2rem;
+    }
+
+    p {
+      background-color: rgb(28, 247, 172);
+    }
+  }
+
+  &.receiver {
+    justify-content: flex-start;
+
+    &:has(+ .receiver) {
+      margin-bottom: 4px;
+    }
+
+    &:has(+ .sender) {
+      margin-bottom: 2rem;
+    }
+
+    p {
+      background-color: rgb(243, 243, 245);
+    }
+  }
+
+  p {
+    max-width: 45%;
+    padding: 8px 16px 8px 16px;
+    border-radius: 12px 16px 16px 0;
+    font-size: 0.95rem;
+  }
+}
