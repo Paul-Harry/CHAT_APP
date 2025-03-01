@@ -36,4 +36,4 @@ Accédez à ``` http://localhost:5173``` pour voir l'application côté client.
 # Ensuite dans le repertoire serveur 
 
 
-Lancez le serveur avec ``` npm run start``` 
+Lancez le serveur avec ``` npm run dev``` 
