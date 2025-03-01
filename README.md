@@ -33,9 +33,10 @@ npm run dev
 ```
 Accédez à ``` http://localhost:5173``` pour voir l'application côté client.
 
-DÉVELOPPEUR PAUL-HARRY
 
 # Ensuite dans le repertoire serveur 
 
 
 Lancez le serveur avec ``` npm run dev``` 
+
+DÉVELOPPEUR PAUL-HARRY LAWSON
